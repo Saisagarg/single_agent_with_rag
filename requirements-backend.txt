@@ -1,0 +1,13 @@
+# Direct dependencies pinned to the existing working Python 3.12 environment.
+azure-core==1.41.0
+azure-identity==1.26.0
+azure-search-documents==12.0.0
+azure-storage-blob==12.31.0
+fastapi==0.143.5
+neo4j==6.4.1
+openai==3.35.1
+pydantic==2.14.1
+pypdf==6.21.1
+python-dotenv==1.2.4
+python-multipart==0.0.32
+uvicorn==0.54.0

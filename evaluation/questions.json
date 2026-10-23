@@ -1,0 +1,58 @@
+
+[
+  {
+    "id": "Q1",
+    "question": "What is Agentic AI?",
+    "relevant_chunk_ids":[
+    "a853569c-176a-4190-b92d-4d943d943bbd-1",
+    "a853569c-176a-4190-b92d-4d943d943bbd-7",
+    "a853569c-176a-4190-b92d-4d943d943bbd-8",
+    "a853569c-176a-4190-b92d-4d943d943bbd-4",
+    "a853569c-176a-4190-b92d-4d943d943bbd-5"
+  ]
+  },
+  {
+    "id": "Q2",
+    "question": "How do Agentic AI systems use planning and tools?",
+    "relevant_chunk_ids": [
+    "a853569c-176a-4190-b92d-4d943d943bbd-1",
+    "a853569c-176a-4190-b92d-4d943d943bbd-8",
+    "a853569c-176a-4190-b92d-4d943d943bbd-4",
+    "a853569c-176a-4190-b92d-4d943d943bbd-7",
+    "a853569c-176a-4190-b92d-4d943d943bbd-2"
+  ]
+  },
+  {
+    "id": "Q3",
+    "question": "What are the advantages of Agentic AI?",
+    "relevant_chunk_ids": [
+    "a853569c-176a-4190-b92d-4d943d943bbd-1",
+    "a853569c-176a-4190-b92d-4d943d943bbd-7",
+    "a853569c-176a-4190-b92d-4d943d943bbd-8",
+    "a853569c-176a-4190-b92d-4d943d943bbd-4",
+    "a853569c-176a-4190-b92d-4d943d943bbd-5"
+  ]
+  },
+  {
+    "id": "Q4",
+    "question": "What are the limitations and risks of Agentic AI?",
+    "relevant_chunk_ids": [
+    "a853569c-176a-4190-b92d-4d943d943bbd-7",
+    "a853569c-176a-4190-b92d-4d943d943bbd-1",
+    "a853569c-176a-4190-b92d-4d943d943bbd-8",
+    "a853569c-176a-4190-b92d-4d943d943bbd-4",
+    "a853569c-176a-4190-b92d-4d943d943bbd-5"
+  ]
+  },
+  {
+    "id": "Q5",
+    "question": "Why is human oversight important for AI agents?",
+    "relevant_chunk_ids": [
+    "a853569c-176a-4190-b92d-4d943d943bbd-7",
+    "a853569c-176a-4190-b92d-4d943d943bbd-8",
+    "a853569c-176a-4190-b92d-4d943d943bbd-4",
+    "a853569c-176a-4190-b92d-4d943d943bbd-6",
+    "a853569c-176a-4190-b92d-4d943d943bbd-5"
+  ]
+  }
+]

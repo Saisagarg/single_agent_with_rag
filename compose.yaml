@@ -1,0 +1,34 @@
+services:
+  backend:
+    image: modular-rag-backend:local
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    env_file:
+      - .env
+    environment:
+      RAG_AZURE_CREDENTIAL: default
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./data:/app/data
+    init: true
+    mem_limit: 1g
+    cpus: 1.0
+    restart: unless-stopped
+  frontend:
+    image: modular-rag-frontend:local
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    environment:
+      RAG_API_URL: http://backend:8000
+    ports:
+      - "127.0.0.1:8501:8501"
+    depends_on:
+      backend:
+        condition: service_healthy
+    init: true
+    mem_limit: 768m
+    cpus: 1.0
+    restart: unless-stopped

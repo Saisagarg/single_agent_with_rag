@@ -1,0 +1,10 @@
+
+.venv/
+.env
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/document_registry.db
+data/document_registry.db-journal
+data/document_registry.db-wal
+data/document_registry.db-shm
